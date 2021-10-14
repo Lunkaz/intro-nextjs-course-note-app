@@ -1,3 +1,4 @@
+/** @jsx jsx */
 /** @jsxRuntime classic */ 
 import { jsx } from 'theme-ui'
 import { ThemeProvider } from 'theme-ui'

@@ -2,7 +2,7 @@ import nc from 'next-connect'
 
 const handler = nc()
     .get((req, res) => {
-        res.jason({message: 'ok'})
+        res.json({message: 'ok'})
     })
     .post((req, res) => {
         res.json({message: 'posted'})
